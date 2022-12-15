@@ -5,6 +5,7 @@ GET /account/{accountId}/statement - returns an account statemant for a given ac
 PUT /account/{accountId}/block - blockes an account.
 PUT /account/deposit - new deposit transaction for a given account.
 PUT /account/withdraw - new withdraw transaction for a given account.
+GET /docs - swagger ui
 
 The project uses Nest.js as it's framework for the server component. The database of choise is a SQL relational database (Sqlite). The server exposes swagger ui.
 
